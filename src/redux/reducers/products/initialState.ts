@@ -1,6 +1,3 @@
-const initialState = {
-  departureTicket: null,
-  returnTicket: null,
-};
+const initialState = {};
 
 export default initialState;
