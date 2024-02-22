@@ -5,7 +5,7 @@ import { setQueryProp } from "../../../redux/reducers/queryReducer/queryReducer"
 
 const BasicPagination: React.FC<Pagination> = ({ pageCount }) => {
   const dispatch = useDispatch();
-  const [currentPage, setCurrentPage] = useState<number | undefined>(0);
+  const [currentPage, setCurrentPage] = useState<number | undefined>(1);
 
   const handleChange = (event: ChangeEvent<unknown>, page: number) => {
     const currentUrl = window.location.href;
