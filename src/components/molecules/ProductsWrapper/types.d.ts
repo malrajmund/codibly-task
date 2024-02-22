@@ -1,0 +1,3 @@
+interface ProductsWrapperProps {
+  products: ProductData[];
+}

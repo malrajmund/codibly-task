@@ -30,7 +30,15 @@ const BasicPagination: React.FC<Pagination> = ({ pageCount }) => {
     }
   }, []);
 
-  return <Pagination onChange={(event, page) => handleChange(event, page)} page={currentPage} count={pageCount} color='primary' />;
+  return (
+    <Pagination
+      sx={{ marginTop: "20px", marginBottom: "20%" }}
+      onChange={(event, page) => handleChange(event, page)}
+      page={currentPage}
+      count={pageCount}
+      color='secondary'
+    />
+  );
 };
 
 export default BasicPagination;
