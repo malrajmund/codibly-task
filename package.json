@@ -1,6 +1,7 @@
 {
   "name": "codibly-task",
   "version": "0.1.0",
+  "homepage": "https://malrajmund.github.io/codibly-task",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.3",
